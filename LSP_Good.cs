@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
 namespace SOLID_Principles.LSP.Good
 {
@@ -24,7 +20,6 @@ namespace SOLID_Principles.LSP.Good
 			throw new NotImplementedException();
 		}
 	}
-
 	public class SqlFile : IWritableSqlFile, IReadableSqlFile
 	{
 		public string FilePath { get; set; }
@@ -33,13 +28,11 @@ namespace SOLID_Principles.LSP.Good
 		{
 			throw new NotImplementedException();
 		}
-
 		void IWritableSqlFile.SaveText()
 		{
 			throw new NotImplementedException();
 		}
 	}
-
 	public class SqlFileManager
 	{
 		public string GetTextFromFiles(List<IReadableSqlFile> aLstReadableFiles)

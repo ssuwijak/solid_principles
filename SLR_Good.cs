@@ -1,21 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
+﻿using System.ComponentModel.DataAnnotations;
 using System.Net.Mail;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SOLID_Principles.SLR
 {
 	/// <summary>
-	/// mockup class for DbContext class
+	/// mockup class of DbContext class
 	/// </summary>
 	public class DbContext
 	{
 		public void Save(User user) { }
 	}
-
 }
 namespace SOLID_Principles.SLR.Good
 {
@@ -35,7 +29,6 @@ namespace SOLID_Principles.SLR.Good
 			var user = new User(email, password);
 			_dbContext.Save(user);
 			_emailService.SendEmail(new MailMessage("myname@mydomain.com", email) { Subject = "Hi. How are you!" });
-
 		}
 	}
 	public class EmailService

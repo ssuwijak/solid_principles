@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 
 namespace SOLID_Principles.LSP.Bad
 {
@@ -14,7 +10,6 @@ namespace SOLID_Principles.LSP.Bad
 		{
 			/* Code to read text from sql file */
 			return "";
-
 		}
 		public string SaveText()
 		{
@@ -25,7 +20,6 @@ namespace SOLID_Principles.LSP.Bad
 	public class SqlFileManager
 	{
 		public List<SqlFile> lstSqlFiles { get; set; }
-
 		public string GetTextFromFiles()
 		{
 			StringBuilder objStrBuilder = new StringBuilder();
@@ -54,7 +48,6 @@ namespace SOLID_Principles.LSP.Bad
 		{
 			/* Code to read text from sql file */
 			return "";
-
 		}
 		public void SaveText()
 		{
@@ -62,7 +55,6 @@ namespace SOLID_Principles.LSP.Bad
 			throw new IOException("Can't Save");
 		}
 	}
-
 	public class SqlFileManager_AvoidExeception
 	{
 		public List<SqlFile> lstSqlFiles { get; set; }

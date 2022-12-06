@@ -7,7 +7,6 @@
 	{
 		public abstract double Area();
 	}
-
 	public class Rectangle : Shape
 	{
 		public double Height { get; set; }

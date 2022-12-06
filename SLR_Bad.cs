@@ -2,15 +2,13 @@
 using System.Net.Mail;
 
 namespace SOLID_Principles.SLR
-{/// <summary>
- /// mockup class for User class
- /// </summary>
+{
+	/// <summary>
+	/// mockup class of User class
+	/// </summary>
 	public class User
 	{
-		public User(string email, string pwd)
-		{
-
-		}
+		public User(string email, string pwd) { }
 	}
 }
 
@@ -36,9 +34,5 @@ namespace SOLID_Principles.SLR.Bad
 
 			_smtpClient.Send(message);
 		}
-
-
 	}
-
-
 }
