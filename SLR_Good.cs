@@ -4,7 +4,8 @@ using System.Net.Mail;
 namespace SOLID_Principles.SLR
 {
 	/// <summary>
-	/// mockup class of DbContext class
+	/// mockup class for DbContext class
+	/// lazy to import and using declaration
 	/// </summary>
 	public class DbContext
 	{

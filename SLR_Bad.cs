@@ -4,7 +4,8 @@ using System.Net.Mail;
 namespace SOLID_Principles.SLR
 {
 	/// <summary>
-	/// mockup class of User class
+	/// mockup class for User class
+	/// lazy to import and using declaration
 	/// </summary>
 	public class User
 	{

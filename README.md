@@ -20,8 +20,11 @@ SOLID principles are the design principles that enable us to manage most of the 
 
 ### I: Interface Segregation Principle (ISP)
 
+"that clients should not be forced to implement interfaces they don't use. Instead of one fat interface, many small interfaces are preferred based on groups of methods, each one serving one submodule."
 
 ### D: Dependency Inversion Principle (DIP)
+
+"high-level modules/classes should not depend on low-level modules/classes. Both should depend upon abstractions. Secondly, abstractions should not depend upon details. Details should depend upon abstractions."
 
 ## C# vs VB.NET keywords
 
