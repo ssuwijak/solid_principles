@@ -15,26 +15,26 @@ SOLID principles are the design principles that enable us to manage most of the 
 ### O: Open closed Principle (OCP)
 
 "A software module/class is open for extension and closed for modification".
-* [Bad](https://github.com/ssuwijak/solid_principles/blob/main/OCP_Bad.cs)
-* [Good](https://github.com/ssuwijak/solid_principles/blob/main/OCP_Good.cs)
+* [Bad](OCP_Bad.cs)
+* [Good](OCP_Good.cs)
 
 ### L: Liskov substitution Principle (LSP)
 
 "you should be able to use any derived class instead of a parent class and have it behave in the same manner without modification"
-* [Bad](https://github.com/ssuwijak/solid_principles/blob/main/LSP_Bad.cs)
-* [Good](https://github.com/ssuwijak/solid_principles/blob/main/LSP_Good.cs)
+* [Bad](LSP_Bad.cs)
+* [Good](LSP_Good.cs)
 
 ### I: Interface Segregation Principle (ISP)
 
 "that clients should not be forced to implement interfaces they don't use. Instead of one fat interface, many small interfaces are preferred based on groups of methods, each one serving one submodule."
-* [Bad](https://github.com/ssuwijak/solid_principles/blob/main/ISP_Bad.cs)
-* [Good](https://github.com/ssuwijak/solid_principles/blob/main/ISP_Good.cs)
+* [Bad](ISP_Bad.cs)
+* [Good](ISP_Good.cs)
 
 ### D: Dependency Inversion Principle (DIP)
 
 "high-level modules/classes should not depend on low-level modules/classes. Both should depend upon abstractions. Secondly, abstractions should not depend upon details. Details should depend upon abstractions."
-* [Bad](https://github.com/ssuwijak/solid_principles/blob/main/DIP_Bad.cs)
-* [Good](https://github.com/ssuwijak/solid_principles/blob/main/DIP_Good.cs)
+* [Bad](DIP_Bad.cs)
+* [Good](DIP_Good.cs)
 
 ## C# vs VB.NET keywords
 
