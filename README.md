@@ -9,8 +9,8 @@ SOLID principles are the design principles that enable us to manage most of the 
 ### S: Single Responsibility Principle (SRP) 
 
 "Every software module should have only one reason to change".
-* [Bad](https://github.com/ssuwijak/solid_principles/blob/main/SRP_Bad.cs)
-* [Good](https://github.com/ssuwijak/solid_principles/blob/main/SRP_Good.cs)
+* [Bad](SRP_Bad.cs)
+* [Good](SRP_Good.cs)
 
 ### O: Open closed Principle (OCP)
 
